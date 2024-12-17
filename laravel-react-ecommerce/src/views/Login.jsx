@@ -7,6 +7,7 @@ function Login() {
     return (
         <div className="login-signup-form animated fadeinDown">
             <form className="form" onSubmit={submit}>
+            <h1 className="title">Login</h1>
                 <input type="email" placeholder="Email" />
                 <input type="password" placeholder="Password" />
                 <button type="submit" className="btn btn-block">
